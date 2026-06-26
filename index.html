@@ -9,25 +9,32 @@
 </head>
 <body>
   <main class="page">
-    <h1>Save Our Wildlife</h1>
+    <article class="card">
+      <header class="hero">
+        <p class="eyebrow">Conservation Campaign</p>
+        <h1>Save Our Wildlife</h1>
+      </header>
 
-    <div class="video-wrapper">
-      <video id="wildlifeVideo" controls preload="metadata" poster="" width="800">
-        <source src="wildlife.mp4" type="video/mp4" />
-        Your browser does not support the video tag. You can
-        <a href="wildlife.mp4">download the video</a> instead.
-      </video>
-    </div>
+      <div class="video-wrapper">
+        <video id="wildlifeVideo" controls preload="metadata">
+          <source src="wildlife.mp4" type="video/mp4" />
+          Your browser does not support the video tag. You can
+          <a href="wildlife.mp4">download the video</a> instead.
+        </video>
+      </div>
 
-    <button id="toggleBtn" type="button" aria-controls="wildlifeVideo">
-      Play video
-    </button>
+      <div class="controls">
+        <button id="toggleBtn" type="button" aria-controls="wildlifeVideo">
+          Play video
+        </button>
+      </div>
 
-    <p class="description">
-      Every species plays a vital role in our planet's ecosystem. This short film
-      takes you into the heart of the wild to show why protecting endangered
-      animals and their habitats matters — and how you can help today.
-    </p>
+      <p class="description">
+        Every species plays a vital role in our planet's ecosystem. This short film
+        takes you into the heart of the wild to show why protecting endangered
+        animals and their habitats matters — and how you can help today.
+      </p>
+    </article>
   </main>
 
   <script src="script.js"></script>
