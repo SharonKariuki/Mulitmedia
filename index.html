@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Promotional video and information about wildlife conservation." />
+  <title>Save Our Wildlife</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <h1>Save Our Wildlife</h1>
+
+    <div class="video-wrapper">
+      <video id="wildlifeVideo" controls preload="metadata" poster="" width="800">
+        <source src="wildlife.mp4" type="video/mp4" />
+        Your browser does not support the video tag. You can
+        <a href="wildlife.mp4">download the video</a> instead.
+      </video>
+    </div>
+
+    <button id="toggleBtn" type="button" aria-controls="wildlifeVideo">
+      Play video
+    </button>
+
+    <p class="description">
+      Every species plays a vital role in our planet's ecosystem. This short film
+      takes you into the heart of the wild to show why protecting endangered
+      animals and their habitats matters — and how you can help today.
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
